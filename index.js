@@ -7,7 +7,7 @@ var path = require('path');
 
 module.exports = function (dirname) {
     var res = {};
-    glob.sync(dirname + '/*.js')
+    glob.sync(path.join(dirname, '*.js'))
         .map(function (fname) { return require(path.join(process.cwd(), fname)); })
         .forEach(function (obj) { merge.recursive(res, obj); });
 
