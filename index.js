@@ -2,7 +2,6 @@
 
 var merge = require('merge');
 var glob = require('glob');
-var fs = require('fs');
 var path = require('path');
 
 module.exports = function (dirname) {
