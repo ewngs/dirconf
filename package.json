@@ -1,0 +1,38 @@
+{
+  "name": "dirconf",
+  "version": "0.1.0",
+  "description": "Load and Merge Configurations from a Directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewngs/dirconf.git"
+  },
+  "keywords": [
+    "conf",
+    "config",
+    "load",
+    "directory",
+    "folder",
+    "merge"
+  ],
+  "author": {
+    "name": "Peter Kovacs",
+    "email": "kiwep@elasticwings.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ewngs/dirconf/issues"
+  },
+  "homepage": "https://github.com/ewngs/dirconf#readme",
+  "dependencies": {
+    "glob": "^5.0.14",
+    "merge": "^1.2.0"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.2"
+  }
+}
