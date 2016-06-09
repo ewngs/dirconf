@@ -12,7 +12,7 @@ module.exports = function (dirname) {
         .map(function (fname) { return require(path.join(process.cwd(), fname)); })
         .forEach(function (obj) {
             merge.recursive(res, obj);
-            confFound = true
+            confFound = true;
         });
 
     if (!confFound) {
