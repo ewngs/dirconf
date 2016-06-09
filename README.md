@@ -1,5 +1,7 @@
 # Load configuration files from a directory
 
+[![Build Status](https://travis-ci.org/ewngs/dirconf.svg?branch=master)](https://travis-ci.org/ewngs/dirconf)
+
 This simple module loads all .js files from a given directory, merges the exported
 objects and returns the result.
 This is handy if you want to store your configuration parameters in separate files.
